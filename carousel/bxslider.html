@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<!--<meta charset="UTF-8">-->
+		<title>Carousel using bxSlider.js</title>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<style>
+			#wrapper {
+				width:800px;				
+				margin:0 auto;
+				}
+		</style>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+	</head>
+	<body>
+		<center><h1> bxslider 플러그인을 이용한 캐러셀의 예 </h1></center>
+		<div id="wrapper">
+			<div class="bxslider">
+				<div>
+					  <img src="images/one-1.jpg" title="첫 번째 이미지이지롱!!!">  <!-- 캐러셀에 들어갈 첫번재 이미지 -->
+				</div>
+				<div>
+					  <img src="images/one-2.jpg" title="두 번째 이미지이지롱!!!">  <!-- 캐러셀에 들어갈 두번재 이미지 -->
+				</div>
+				<div>
+					  <img src="images/one-3.jpg" title="세 번째 이미지이지롱!!!">  <!-- 캐러셀에 들어갈 세번재 이미지 -->
+				</div>
+				<div>
+					  <img src="images/one-4.jpg" title="네 번째 이미지이지롱!!!">  <!-- 캐러셀에 들어갈 네번재 이미지 -->
+				</div>
+			</div>
+		</div>
+<!--		<script src="js/jquery-2.2.4.min.js"></script>-->
+		<script src="js/jquery.bxslider.js"></script>
+		<script>
+			$(function() {
+				$('.bxslider').bxSlider({ //bsxlider라는 클래스 요소에 bsSlider를 실행해라 
+					fade:'vertical',
+					captions:true,
+					auto:true,
+					autoControls:true,
+					stopAutoOnclick:true,
+					adaptiveHeight:true,
+					infiniteLoop:false,
+					hideControlOnEnd:true
+				});
+			});
+		</script>
+	</body>
+</html>
+
