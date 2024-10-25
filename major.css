@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3{
+    font-family: 'HakgyoansimWoojuR';
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+    font-family: 'omyu_pretty';
+}
+
+body { 
+    font-family: 'MaplestoryOTFBold';
+    background-color: rgb(247, 244, 237);
+    margin: 0px;
+}
+
+div{
+    text-align: center;
+    margin:0;
+}
+
+div a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 3px 3px;
+    color: black;
+    font-weight: bold;
+}
+
+header{
+    width:80%;
+    background-color: rgb(16, 97, 16);
+    padding: 0 10px;
+    overflow: hidden;
+    margin:auto;
+}
+
+header h1{
+    width:30%;
+    float:left;
+    color:orange;
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+header nav{
+    width:65%;
+    float:right;
+    color:aqua;
+    font-size: 1.2em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display:inline;
+    float:left;
+    margin:20px;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+        background-color: green;
+        color: beige;
+        border-radius: 10px;
+    }
+
+section{
+    width:80%;
+    margin:auto;
+    border:5px solid gray;
+    padding:0 5px;
+    overflow: hidden;
+}
+
+article{
+    width:90%;
+    height:300px;
+    margin:10px 30px;
+    padding:5px 20px;
+    border:1px dotted lightgray;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+article:hover{
+    background-color: beige;
+}
+
+article h3{
+    font-size: 1.2em;
+    color:mediumblue;
+}
+
+footer{
+    width:80%;
+    margin:auto;
+    border:5px solid gray;
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1em;
+    color:black;
+    height:60px;
+    line-height: 60px;
+}
+
+p{
+    font-size: 18px;
+}

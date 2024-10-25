@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3{
+    font-family: 'HakgyoansimWoojuR';
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-family: 'omyu_pretty';
+}
+
+table tr td{
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    border-radius: 10px;
+    height: 250px;
+}
+
+tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+
+tr:nth-child(odd){
+    background-color: beige;
+}
+
+tr:hover{
+    background-color: rgb(223, 233, 170);
+}
+
+tr:nth-child(1){
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 3px 3px;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(247, 244, 237);
+    margin: 0px;
+}
+
